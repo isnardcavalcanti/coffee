@@ -232,26 +232,45 @@ section h2{
 }
 
 
-@media(min-width: 768px) and (max-width: 1074px){
+@media(min-width: 767px) and (max-width: 1495px){
   nav{
     margin:2rem;
   }
+  main{
+    margin: 1rem;
+  }
+  section{
+    margin-top: 2rem;
+  }
+  section h2{
+    width: 30rem;
+    font-size: 2rem;
+  }
+
   .ilustration{
-    width: 55rem;
-    height: 33rem;
+    width: 50rem;
+    height: 28rem;
     position: absolute;
     top: 20%;
-    left: -30%;
+    left: -50%;
     z-index:-1;
   }
   .copo{
-    margin: auto -5rem auto -2rem; 
+    margin: 2rem -5rem 0 -2rem; 
     position: relative;
     background-repeat: no-repeat;
   }
   .coffee{
-    position: relative;
-    right: -5rem;
+    right: -8rem;
+    height: 68%;
+  }
+  .ilustrations1{
+    position: relative; 
+    right: -10.2rem; 
+    width: 50rem;
+    height: 28rem;
+  }
+  .div-scroll{
+    margin: -5.2rem 0 0 0;
   }
 }
-
