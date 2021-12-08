@@ -1,35 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,700;1,600&family=Playfair+Display&display=swap');
 
-
-:root{
+:root {
   --black: #242424;
-  --yellow: #FCA60F;
-  --brown: #C95E20;
+  --yellow: #fca60f;
+  --brown: #c95e20;
 }
-*{
-  margin: 0; padding: 0;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   font-family: 'Nunito', sans-serif;
 }
 /* Start header */
-header{
+header {
   display: flex;
   margin: 0 auto;
   /* width: 77.43055555555556%; */
   height: 5.9375rem;
   box-shadow: 0px 1px 8px rgba(36, 36, 36, 0.15);
 }
-nav{
+nav {
   margin: 0 10.0625rem 0 10.25rem;
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
-nav ul{
+nav ul {
   justify-items: flex-end;
   align-items: center;
   display: flex;
@@ -40,63 +40,63 @@ li a {
   color: var(--black);
   text-decoration: none;
 }
-.logo{
+.logo {
   width: 12rem;
 }
 /* End header */
 
 /* Start main */
-main{
+main {
   overflow: hidden;
   position: relative;
   display: flex;
   height: calc(100vh - 95px -57px);
   justify-content: space-between;
-  margin-left:10.0625rem;
+  margin-left: 10.0625rem;
   max-width: 100%;
 }
-section{
+section {
   margin: auto 0;
 }
 
-section h2{
+section h2 {
   width: 34.25rem;
   height: 8.948125rem;
   font-size: 36px;
   line-height: 49px;
 }
 
-.copo{
-  margin: auto 13rem auto 8rem; 
+.copo {
+  margin: auto 13rem auto 8rem;
   position: relative;
   background-repeat: no-repeat;
 }
-.coffee{
+.coffee {
   position: relative;
   right: -22rem;
 }
-.ilustrations1{
+.ilustrations1 {
   position: relative;
-  top: -.5rem;
+  top: -0.5rem;
   right: 4.2rem;
   display: block;
   z-index: -1;
 }
 
-.button{
+.button {
   display: block;
   margin-top: 4.991875rem;
   text-decoration: none;
   color: #fff;
-  background-color: #FCA60F;
-  padding:1.1rem;
+  background-color: #fca60f;
+  padding: 1.1rem;
   border-radius: 0.3125rem;
   width: 18.125rem;
   height: 3.6525rem;
   text-align: center;
 }
 
-.list{
+.list {
   margin-top: 2rem;
   list-style-type: none;
   display: flex;
@@ -106,37 +106,37 @@ section h2{
 
 /* Start ilustration */
 
-.ilustration{
+.ilustration {
   width: 60rem;
   height: 35rem;
   position: absolute;
   top: 10rem;
   left: -20rem;
-  z-index:-1;
+  z-index: -1;
 }
 
-.div-scroll{
+.div-scroll {
   display: grid;
-  justify-items: center; 
+  justify-items: center;
   margin: 0 auto;
   /* position: absolute; */
   bottom: 1rem;
 }
 
-@media(min-width: 210px) and (max-width: 767px){
-  nav{
+@media (min-width: 210px) and (max-width: 767px) {
+  nav {
     display: grid;
     margin: 0;
     padding: 1rem;
     justify-content: center;
   }
-  nav ul{
-    padding-top: .7rem;
+  nav ul {
+    padding-top: 0.7rem;
   }
-  .logo{
+  .logo {
     margin: 0 auto;
   }
-  .titulo{
+  .titulo {
     margin: 0 auto;
     width: 100%;
     height: auto;
@@ -145,36 +145,36 @@ section h2{
     word-break: break-word;
     line-height: 1.705rem;
   }
-  .ilustration{
+  .ilustration {
     width: 323.6px;
     left: -11.25rem;
     top: 1.2rem;
   }
-  main{
+  main {
     height: calc(100vh - 95px);
-    display: block; 
-    margin: 0 auto; 
+    display: block;
+    margin: 0 auto;
   }
-  section{
+  section {
     width: 90%;
     margin: 8.3125rem auto 0 auto;
   }
-  .button{
+  .button {
     margin: 3.3125rem auto 0 auto;
   }
-  .copo{
+  .copo {
     display: none;
   }
-  .ilustrations1{
+  .ilustrations1 {
     position: relative;
-    width: 320.38px; 
-    top: -45%; 
+    width: 320.38px;
+    top: -45%;
     left: 50%;
-  } 
-  .div-scroll{
+  }
+  .div-scroll {
     display: none;
   }
-  .list{
+  .list {
     position: relative;
     top: 3rem;
     margin-top: 9rem;
@@ -182,95 +182,238 @@ section h2{
   }
 }
 
-@media(min-width: 320px) and (max-width: 767px){
-  section{
+@media (min-width: 320px) and (max-width: 767px) {
+  section {
     width: 90%;
     margin: 6rem auto 0 auto;
   }
-  .ilustrations1{
-    top: -32%; 
+  .ilustrations1 {
+    top: -32%;
     left: 55%;
-  } 
-  .list{
+  }
+  .list {
     top: 5.5rem;
   }
 }
 
-@media(min-width: 375px) and (max-width: 767px){
-  section{
+@media (min-width: 375px) and (max-width: 767px) {
+  section {
     width: 85%;
     margin: 5rem auto 0 auto;
   }
-  .ilustrations1{
-    top: -32%; 
+  .ilustrations1 {
+    top: -32%;
     left: 60%;
-  } 
-  .list{
+  }
+  .list {
     top: 6.5rem;
   }
 }
 
-@media(min-width: 425px) and (max-width: 767px){
-  .ilustrations1{
-    top: -34%; 
+@media (min-width: 425px) and (max-width: 767px) {
+  .ilustrations1 {
+    top: -34%;
     left: 59%;
   }
 }
 
-@media(min-width: 515px) and (max-width: 767px){
-  .ilustrations1{
-    top: -32%; 
+@media (min-width: 515px) and (max-width: 767px) {
+  .ilustrations1 {
+    top: -32%;
     left: 68%;
   }
 }
 
-@media(min-width: 615px) and (max-width: 767px){
-  .ilustrations1{
-    top: -34%; 
+@media (min-width: 615px) and (max-width: 767px) {
+  .ilustrations1 {
+    top: -34%;
     left: 74%;
   }
 }
 
-
-@media(min-width: 767px) and (max-width: 1495px){
-  nav{
-    margin:2rem;
+@media (min-width: 768px) and (max-width: 1495px) {
+  nav {
+    margin: 2rem;
   }
-  main{
-    margin: 1rem;
+  main {
+    margin: 0;
+    padding: 1rem 3rem;
   }
-  section{
-    margin-top: 2rem;
+  section {
+    margin: 2rem 1rem 0 0;
   }
-  section h2{
-    width: 30rem;
+  section h2 {
+    width: 28rem;
     font-size: 2rem;
   }
 
-  .ilustration{
+  .ilustration {
     width: 50rem;
     height: 28rem;
     position: absolute;
-    top: 20%;
-    left: -50%;
-    z-index:-1;
+    top: 16%;
+    left: -46%;
+    z-index: -1;
   }
-  .copo{
-    margin: 2rem -5rem 0 -2rem; 
+  .copo {
+    margin: 2rem -2rem 0 -1rem;
     position: relative;
     background-repeat: no-repeat;
   }
-  .coffee{
-    right: -8rem;
+  .coffee {
+    right: -3rem;
     height: 68%;
   }
-  .ilustrations1{
-    position: relative; 
-    right: -10.2rem; 
+  .ilustrations1 {
+    position: relative;
+    right: 7rem;
     width: 50rem;
     height: 28rem;
   }
-  .div-scroll{
-    margin: -5.2rem 0 0 0;
+  .div-scroll {
+    margin: 2rem 0 0 0;
+  }
+}
+
+@media (min-width: 770px) and (max-width: 1495px) {
+  .ilustrations1 {
+    right: 5rem;
+  }
+  .coffee {
+    right: -5.5rem;
+  }
+}
+@media (min-width: 821px) and (max-width: 1495px) {
+  .ilustrations1 {
+    right: 2rem;
+  }
+  .coffee {
+    right: -6.5rem;
+  }
+}
+
+@media (min-width: 880px) and (max-width: 1495px) {
+  .ilustrations1 {
+    right: -1rem;
+  }
+  .coffee {
+    right: -9rem;
+  }
+}
+@media (min-width: 915px) and (max-width: 1495px) {
+  main {
+    margin-top: 1rem;
+  }
+  .ilustrations1 {
+    right: -3.5rem;
+  }
+  .coffee {
+    right: -12rem;
+  }
+  .ilustration {
+    width: 52rem;
+    height: 30rem;
+    top: 16%;
+    left: -40%;
+  }
+}
+
+@media (min-width: 950px) and (max-width: 1495px) {
+  .ilustrations1 {
+    right: -5.5rem;
+  }
+  .coffee {
+    right: -15rem;
+  }
+  .ilustration {
+    top: 16%;
+    left: -38%;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1495px) {
+  .ilustrations1 {
+    right: -8.5rem;
+  }
+  .coffee {
+    right: -18rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1495px) {
+  .ilustrations1 {
+    right: -11rem;
+  }
+  .coffee {
+    right: -22rem;
+  }
+}
+
+@media (min-width: 1115px) and (max-width: 1495px) {
+  .ilustrations1 {
+    right: -25%;
+  }
+  .coffee {
+    right: -230%;
+  }
+  .ilustration {
+    left: -32%;
+  }
+}
+
+@media (min-width: 1170px) and (max-width: 1495px) {
+  .ilustrations1 {
+    right: -24%;
+    width: 55rem;
+    height: 32rem;
+  }
+  .coffee {
+    right: -240%;
+  }
+  .ilustration {
+    width: 55rem;
+    height: 32rem;
+    left: -32%;
+  }
+  main {
+    margin-top: 3rem;
+  }
+  .div-scroll {
+    margin: -2rem 0 0 0;
+  }
+}
+
+@media (min-width: 1170px) and (max-width: 1495px) {
+  .ilustrations1 {
+    right: -30%;
+  }
+  .coffee {
+    right: -265%;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1495px) {
+  .coffee {
+    right: -290%;
+  }
+
+  section h2 {
+    width: 30rem;
+    font-size: 2.25rem;
+  }
+}
+
+@media (min-width: 1345px) and (max-width: 1495px) {
+  .ilustration {
+    left: -29%;
+  }
+  .coffee {
+    right: -260%;
+  }
+  .ilustrations1 {
+    right: -26%;
+  }
+  section h2 {
+    width: 36rem;
   }
 }
