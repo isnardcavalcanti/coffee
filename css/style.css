@@ -119,7 +119,6 @@ section h2 {
   display: grid;
   justify-items: center;
   margin: 0 auto;
-  /* position: absolute; */
   bottom: 1rem;
 }
 
@@ -138,17 +137,25 @@ section h2 {
   }
   .titulo {
     margin: 0 auto;
-    width: 100%;
+    padding: 4rem 0;
+    width: 95%;
     height: auto;
     text-align: center;
-    font-size: 1.25rem;
-    word-break: break-word;
+    font-size: 1.2rem;
     line-height: 1.705rem;
   }
   .ilustration {
-    width: 323.6px;
-    left: -11.25rem;
-    top: 1.2rem;
+    width: 20.225rem;
+    height: 15rem;
+    left: -11rem;
+    top: 7rem;
+  }
+  .ilustrations1 {
+    position: relative;
+    width: 23.77375rem;
+    height: 15rem;
+    top: -30%;
+    left: 45%;
   }
   main {
     height: calc(100vh - 95px);
@@ -157,19 +164,16 @@ section h2 {
   }
   section {
     width: 90%;
-    margin: 8.3125rem auto 0 auto;
+    margin: 0 auto;
   }
   .button {
-    margin: 3.3125rem auto 0 auto;
+    width: 80%;
+    height: 3rem;
+    padding: 0.85rem;
+    margin: 0 auto;
   }
   .copo {
     display: none;
-  }
-  .ilustrations1 {
-    position: relative;
-    width: 320.38px;
-    top: -45%;
-    left: 50%;
   }
   .div-scroll {
     display: none;
@@ -177,13 +181,14 @@ section h2 {
   .list {
     position: relative;
     top: 3rem;
-    margin-top: 9rem;
+    margin: 0;
+    padding-top: 4.2rem;
     justify-content: center;
   }
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-  section {
+  /*   section {
     width: 90%;
     margin: 6rem auto 0 auto;
   }
@@ -193,7 +198,7 @@ section h2 {
   }
   .list {
     top: 5.5rem;
-  }
+  } */
 }
 
 @media (min-width: 375px) and (max-width: 767px) {
@@ -271,7 +276,7 @@ section h2 {
     height: 28rem;
   }
   .div-scroll {
-    margin: 2rem 0 0 0;
+    margin: -2rem 0 0 0;
   }
 }
 
@@ -315,6 +320,9 @@ section h2 {
     height: 30rem;
     top: 16%;
     left: -40%;
+  }
+  .div-scroll {
+    padding-top: 3rem;
   }
 }
 
@@ -365,21 +373,18 @@ section h2 {
   .ilustrations1 {
     right: -24%;
     width: 55rem;
-    height: 32rem;
+    height: 30rem;
   }
   .coffee {
     right: -240%;
   }
   .ilustration {
     width: 55rem;
-    height: 32rem;
+    height: 30rem;
     left: -32%;
   }
   main {
     margin-top: 3rem;
-  }
-  .div-scroll {
-    margin: -2rem 0 0 0;
   }
 }
 
@@ -404,6 +409,9 @@ section h2 {
 }
 
 @media (min-width: 1345px) and (max-width: 1495px) {
+  main {
+    margin: 0;
+  }
   .ilustration {
     left: -29%;
   }
@@ -411,9 +419,13 @@ section h2 {
     right: -260%;
   }
   .ilustrations1 {
+    top: -1.5rem;
     right: -26%;
   }
   section h2 {
     width: 36rem;
+  }
+  .div-scroll {
+    margin: -8rem 0 0 0;
   }
 }
