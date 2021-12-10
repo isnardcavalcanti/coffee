@@ -167,7 +167,7 @@ section h2 {
     margin: 0 auto;
   }
   .button {
-    width: 80%;
+    width: 12.599375rem;
     height: 3rem;
     padding: 0.85rem;
     margin: 0 auto;
@@ -188,41 +188,16 @@ section h2 {
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-  /*   section {
-    width: 90%;
-    margin: 6rem auto 0 auto;
-  }
-  .ilustrations1 {
-    top: -32%;
-    left: 55%;
-  }
-  .list {
-    top: 5.5rem;
-  } */
-}
-
-@media (min-width: 375px) and (max-width: 767px) {
-  section {
-    width: 85%;
-    margin: 5rem auto 0 auto;
-  }
-  .ilustrations1 {
-    top: -32%;
-    left: 60%;
-  }
-  .list {
-    top: 6.5rem;
-  }
-}
-
-@media (min-width: 425px) and (max-width: 767px) {
-  .ilustrations1 {
-    top: -34%;
-    left: 59%;
+  .titulo {
+    font-size: 1.3rem;
   }
 }
 
 @media (min-width: 515px) and (max-width: 767px) {
+  .titulo {
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+  }
   .ilustrations1 {
     top: -32%;
     left: 68%;
